@@ -79,5 +79,11 @@ public class TestAccounts {
 		// .toString() prints instance vars
 		System.out.println(intAcc.toString());
 
+		// required tests
+
+		InterestAccount intAcc2 = new InterestAccount(1000, 0.25);
+		intAcc2.addMonthlyInterest();
+		System.out.println(intAcc2.toString());
+
 	}
 }
