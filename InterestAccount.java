@@ -3,12 +3,12 @@
 public class InterestAccount extends Account {
 
 	// instance variable interestRate -> double
-	private double interestRate;
+	private double monthlyInterestRate;
 
 	// constructor with balance and monthly i
-	public InterestAccount(double balance, double interestRate) {
+	public InterestAccount(double balance, double monthlyInterestRate) {
 		super(balance); // call super class constructor
-		this.interestRate = interestRate; // set intrest rate.
+		this.monthlyInterestRate = monthlyInterestRate; // set intrest rate.
 
 	}
 
@@ -22,11 +22,11 @@ public class InterestAccount extends Account {
 
 	// getters and setters
 	public double getInterest() {
-		return interestRate;
+		return monthlyInterestRate;
 	}
 
 	public void setInterest(double newInterestRate) {
-		interestRate = newInterestRate;
+		monthlyInterestRate = newInterestRate;
 	}
 
 	// return the claues of all the instance variables
