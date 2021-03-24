@@ -17,11 +17,13 @@ public class InterestAccount extends Account {
 	// interest is calculated on current balance
 	public void addMonthlyInterest() {
 		double monthlyInt = getBalance() * interestRate;
-		System.out.println(interestRate);
 		System.out.println(monthlyInt);
 	}
 
 	// getter and setter methods for monhtlyInterestRate
+	public double getInterest() {
+		return interestRate;
+	}
 
 	// return the claues of all the instance variables
 	// of this account.
