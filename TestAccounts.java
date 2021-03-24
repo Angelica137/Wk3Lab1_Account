@@ -67,10 +67,10 @@ public class TestAccounts {
 		System.out.println(intAcc.getBalance());
 		// .addMonthoyInterest() adds interest due in a month
 		intAcc.addMonthlyInterest();
-		// .getInterest() returns interest rate
-		System.out.println(intAcc.getInterest());
+
 		// .setInterest() sets a new interest rate
 		intAcc.setInterest(0.05);
+		// .getInterest() returns interest rate
 		System.out.println(intAcc.getInterest());
 
 	}
