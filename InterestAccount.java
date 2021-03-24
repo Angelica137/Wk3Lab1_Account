@@ -30,5 +30,8 @@ public class InterestAccount extends Account {
 
 	// return the values of all the instance variables
 	// of this account.
+	public String toString() {
+		return super.toString() + "; Interest rate: " + monthlyInterestRate;
+	}
 
 }

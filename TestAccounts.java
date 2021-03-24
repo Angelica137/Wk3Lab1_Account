@@ -76,5 +76,8 @@ public class TestAccounts {
 		intAcc.addMonthlyInterest();
 		System.out.println(intAcc.getBalance());
 
+		// .toString() prints instance vars
+		System.out.println(intAcc.toString());
+
 	}
 }
