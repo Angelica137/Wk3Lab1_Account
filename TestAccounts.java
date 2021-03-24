@@ -64,7 +64,7 @@ public class TestAccounts {
 
 		// initialise interest account
 		InterestAccount intAcc = new InterestAccount(500, 0.03);
-		System.out.println(intAcc);
+		System.out.println(intAcc.getBalance());
 
 	}
 }

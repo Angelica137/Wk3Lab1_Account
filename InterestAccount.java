@@ -12,7 +12,11 @@ public class InterestAccount extends Account {
 
 	}
 
-	// .addMonthlyInteres() calcualtes interest due
+	// .addMonthlyInterest() calcualtes interest due
+	public void addMonthlyInterest() {
+		getBalance();
+	}
+
 	// for the month and adds it to the blaance
 	// interest is calculated on current balance
 
