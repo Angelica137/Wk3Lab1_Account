@@ -20,9 +20,13 @@ public class InterestAccount extends Account {
 		System.out.println(monthlyInt);
 	}
 
-	// getter and setter methods for monhtlyInterestRate
+	// getters and setters
 	public double getInterest() {
 		return interestRate;
+	}
+
+	public void setInterest(double newInterestRate) {
+		interestRate = newInterestRate;
 	}
 
 	// return the claues of all the instance variables

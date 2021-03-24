@@ -69,6 +69,9 @@ public class TestAccounts {
 		intAcc.addMonthlyInterest();
 		// .getInterest() returns interest rate
 		System.out.println(intAcc.getInterest());
+		// .setInterest() sets a new interest rate
+		intAcc.setInterest(0.05);
+		System.out.println(intAcc.getInterest());
 
 	}
 }
