@@ -16,7 +16,7 @@ public class InterestAccount extends Account {
 	// for the month and adds it to the balance
 	// interest is calculated on current balance
 	public void addMonthlyInterest() {
-		double monthlyInt = getBalance() * interestRate;
+		double monthlyInt = getBalance() * getInterest();
 		System.out.println(monthlyInt);
 	}
 
