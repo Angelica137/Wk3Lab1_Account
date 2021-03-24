@@ -16,8 +16,7 @@ public class InterestAccount extends Account {
 	// for the month and adds it to the balance
 	// interest is calculated on current balance
 	public void addMonthlyInterest() {
-		double monthlyInt = getBalance() * getInterest();
-		setBalance(getBalance() + monthlyInt);
+		credit(getBalance() * getInterest());
 	}
 
 	// getters and setters
@@ -29,7 +28,7 @@ public class InterestAccount extends Account {
 		monthlyInterestRate = newInterestRate;
 	}
 
-	// return the claues of all the instance variables
+	// return the values of all the instance variables
 	// of this account.
 
 }
