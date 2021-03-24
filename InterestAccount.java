@@ -17,7 +17,7 @@ public class InterestAccount extends Account {
 	// interest is calculated on current balance
 	public void addMonthlyInterest() {
 		double monthlyInt = getBalance() * getInterest();
-		System.out.println(monthlyInt);
+		setBalance(getBalance() + monthlyInt);
 	}
 
 	// getters and setters
