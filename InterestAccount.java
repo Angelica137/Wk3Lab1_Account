@@ -8,17 +8,18 @@ public class InterestAccount extends Account {
 	// constructor with balance and monthly i
 	public InterestAccount(double balance, double interestRate) {
 		super(balance); // call super class constructor
-		interestRate = 0; // set intrest rate.
+		this.interestRate = interestRate; // set intrest rate.
 
 	}
 
-	// .addMonthlyInterest() calcualtes interest due
-	public void addMonthlyInterest() {
-		getBalance();
-	}
-
-	// for the month and adds it to the blaance
+	// .addMonthlyInterest() calculates interest due
+	// for the month and adds it to the balance
 	// interest is calculated on current balance
+	public void addMonthlyInterest() {
+		double monthlyInt = getBalance() * interestRate;
+		System.out.println(interestRate);
+		System.out.println(monthlyInt);
+	}
 
 	// getter and setter methods for monhtlyInterestRate
 
